@@ -1,0 +1,22 @@
+.header {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+
+  &__title {
+    color: red;
+  }
+
+  &__description {
+    color: blue;
+    font: {
+      size: 1rem;
+      style: italic;
+      weight: bold;
+    }
+  }
+
+  &__btn:hover {
+    background-color: brown;
+  }
+}
