@@ -1,0 +1,150 @@
+@import "../../base/variables.css";
+
+/* serve-section */
+.serve-section {
+  margin-top: 100px;
+  padding: 100px 0;
+  background-color: var(--light-pink);
+}
+
+.serve-section__content {
+  text-align: center;
+}
+
+.serve-section__content span {
+  font-size: 18px;
+  font-weight: var(--poppins-500);
+  color: var(--pink);
+}
+
+.serve-section__content h2 {
+  width: 650px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: var(--poppins-700);
+  line-height: 54px;
+}
+
+.serve-section__lists {
+  margin: 50px auto;
+  width: 1100px;
+}
+
+.serve-section__card {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.serve-section__card .card-wrapper {
+  position: relative;
+  border-radius: 10px;
+  padding: 50px 28px;
+  height: 320px;
+  z-index: 2;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.serve-section__card .card-cover {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  z-index: 0;
+  opacity: 0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  height: 340px;
+  background-color: var(--pink);
+  transition: linear 0.2s;
+}
+
+.serve-section__card:hover .card-cover {
+  opacity: 1;
+  left: 25px;
+  transform: rotate(-4deg);
+}
+
+.card-wrapper .card-ic img {
+  width: 100px;
+  height: 70px;
+}
+
+.card-wrapper .card-content {
+  margin-top: 40px;
+}
+
+.card-wrapper .card-content h3 {
+  font-size: 22px;
+  font-weight: var(--poppins-600);
+  line-height: 33px;
+}
+
+.card-wrapper .card-content p {
+  margin: 20px auto;
+  width: 230px;
+  font-size: 14px;
+  font-weight: var(--poppins-400);
+  line-height: 25px;
+  color: var(--gray);
+}
+
+@media screen and (min-width: 576px) and (max-width: 786px) {
+  /*  */
+}
+
+/* breakpoint for screen from 768px to 992px (md)*/
+@media screen and (min-width: 786px) and (max-width: 991px) {
+  /*  */
+}
+
+/* breakpoint for screen from 992px to 1200px (lg) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .serve-section__content h2 {
+    width: 750px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .serve-section__lists {
+    width: 950px;
+  }
+
+  .serve-section__card .card-wrapper {
+    margin: 10px;
+    padding: 40px 26px;
+  }
+
+  .serve-section__card .card-cover {
+    width: 280px;
+  }
+
+  .serve-section__card:hover .card-cover {
+    left: 20px;
+    transform: rotate(-2deg);
+  }
+}
+
+/*  breakpoint for screen from 1200px to 1400px (xl)*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .serve-section__content h2 {
+    width: 750px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .serve-section__lists {
+    width: 950px;
+  }
+
+  .serve-section__card .card-wrapper {
+    margin: 10px;
+    padding: 40px 26px;
+  }
+
+  .serve-section__card:hover .card-cover {
+    left: 17px;
+    transform: rotate(-2deg);
+  }
+}

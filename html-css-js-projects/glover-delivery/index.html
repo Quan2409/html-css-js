@@ -4,10 +4,322 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glover Delivery</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
-    <h1>Glover Delivery Page</h1>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-12">
+            <figure class="header__logo">
+              <img src="./assets/images/logo.svg" alt="logo" />
+            </figure>
+          </div>
+
+          <div class="col-xl-7 col-lg-7 col-md-12">
+            <nav class="header__nav">
+              <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Service</li>
+                <li>Shop</li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-xl-3 col-lg-3 col-md-12">
+            <form class="header__form">
+              <label>
+                <input type="text" placeholder="Search" />
+                <i class="fa-solid fa-magnifying-glass search-ic"></i>
+                <i class="fa-solid fa-cart-shopping cart-ic"></i>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <div class="main-banner__tag">
+                <span>More than faster</span>
+                <img
+                  src="./assets/icons/strawberry-ic.svg"
+                  alt="strawberry-ic"
+                />
+              </div>
+              <div class="main-banner__content">
+                <h1>
+                  Groceries delivered in as little as <span>2 hours</span>
+                </h1>
+                <p>
+                  Grocen atssures fresh grocery every morning to your family
+                  without getting out in this pandemic.
+                </p>
+              </div>
+              <div class="main-banner__btn">
+                <button>Order Now</button>
+                <i class="fa-solid fa-caret-right"></i>
+                <span>Order Process</span>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <figure class="main-banner__pic">
+                <img
+                  src="./assets/images/hero-main.png"
+                  alt="hero-main"
+                  width="636"
+                  height="505"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="serve-section">
+        <div class="container">
+          <div class="serve-section__content">
+            <span>What we Serve</span>
+            <h2>Fruit And Vegetable Delivered To Your Home</h2>
+          </div>
+
+          <div class="serve-section__lists">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="serve-section__card">
+                  <div class="card-wrapper">
+                    <figure class="card-ic">
+                      <img
+                        src="./assets/icons/service-ic1.svg"
+                        alt="service-ic"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <h3>Free Shipping</h3>
+                      <p>
+                        Enjoy Order in a hand using the fresness of groceries
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-cover"></div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="serve-section__card">
+                  <div class="card-wrapper">
+                    <figure class="card-ic">
+                      <img
+                        src="./assets/icons/service-ic2.svg"
+                        alt="service-ic"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <h3>15 Days Return</h3>
+                      <p>
+                        Order in a handy way using the freshness of the
+                        groceries.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-cover"></div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-4">
+                <div class="serve-section__card">
+                  <div class="card-wrapper">
+                    <figure class="card-ic">
+                      <img
+                        src="./assets/icons/service-ic3.svg"
+                        alt="service-ic"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <h3>Secure Checkout</h3>
+                      <p>If you get rotten items - return immediately to us.</p>
+                    </div>
+                  </div>
+                  <div class="card-cover"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="second-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7 col-lg-7">
+              <figure class="second-banner__pic">
+                <img
+                  src="./assets/images/hero-secondary.png"
+                  alt="hero-secondary"
+                  width="650"
+                  height="650"
+                />
+              </figure>
+            </div>
+
+            <div class="col-xl-5 col-lg-5">
+              <div class="second-banner__content">
+                <span>Why Choose Us</span>
+                <h2>Find Favorites And Discover New Ones</h2>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus
+                  blanditiis praesen voluptatum deleniti.
+                </p>
+                <button>Explore Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="third-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-12">
+              <div class="third-banner__content">
+                <span>Home Delivery</span>
+                <h2>Sit At Home We Will Take Care Your Order</h2>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                </p>
+                <button>Explore Now</button>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-5 col-md-12">
+              <figure class="third-banner__pic">
+                <img
+                  src="./assets/images/hero-third.png"
+                  alt="hero-third"
+                  width="600"
+                  height="650"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <figure class="download-section__pic">
+                <img src="./assets/images/mobile.svg" alt="mobile" />
+              </figure>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <div class="download-section__content">
+                <span>Download our app</span>
+                <h2>Get the Groceries App Order More Easily</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+              <div class="download-section__btn">
+                <div class="ios-store">
+                  <img src="./assets/icons/apple.svg" alt="apple-ic" />
+                  <a href="#">Apple Store</a>
+                </div>
+
+                <div class="play-store">
+                  <img src="./assets/icons/playstore.svg" alt="chPlay-ic" />
+                  <a href="#">Play Store</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12">
+              <div class="company-info">
+                <img src="./assets/images/logo.svg" alt="logo" />
+                <p>
+                  Fast delivery, which is active all over the world, serves with
+                  many transportation vehicles.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-12">
+              <div class="company-links">
+                <h3>Company</h3>
+                <ul>
+                  <li>About Us</li>
+                  <li>Blog</li>
+                  <li>All Products</li>
+                  <li>Location Map</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-12">
+              <div class="service-links">
+                <h3>Services</h3>
+                <ul>
+                  <li>Order Tracking</li>
+                  <li>Wish List</li>
+                  <li>My Account</li>
+                  <li>Terms & Conditions</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-12">
+              <div class="get-in-touch">
+                <h3>Get in Touch</h3>
+                <p>
+                  Subscribe to our weekly Newsletter and receive updates via
+                  email.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <p>All Rights Reserved @ BESNIK 2021</p>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <div class="footer-bottom__links">
+                <a href="#">Term & Conditions</a>
+                <a href="#">Privacy & Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

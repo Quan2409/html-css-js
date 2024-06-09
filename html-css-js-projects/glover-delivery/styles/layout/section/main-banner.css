@@ -1,0 +1,132 @@
+@import "../../base/variables.css";
+
+/* main-banner-section */
+.main-banner {
+  margin-top: 70px;
+}
+
+.main-banner h1 {
+  font-size: 74px;
+  font-weight: var(--poppins-700);
+  line-height: 88px;
+}
+
+.main-banner__tag {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 200px;
+  font-weight: var(--poppins-500);
+  color: var(--pink);
+  background-color: var(--light-pink);
+}
+
+.main-banner__content {
+  margin-top: 15px;
+}
+
+.main-banner__content h1 span {
+  color: var(--pink);
+  font-weight: var(--poppins-500);
+}
+
+.main-banner__content p {
+  margin-top: 20px;
+  width: 500px;
+  font-size: 18px;
+  font-weight: var(--poppins-400);
+  line-height: 30px;
+  color: var(--gray);
+}
+
+.main-banner__btn {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.main-banner__btn i {
+  border-radius: 50%;
+  padding: 20px 25px;
+  color: var(--yellow);
+  background-color: var(--white);
+  box-shadow: 1px 1px 10px 0px var(--light-gray);
+}
+
+.main-banner__btn span {
+  font-size: 20px;
+  font-weight: var(--poppins-500);
+  color: var(--black);
+}
+
+.main-banner__btn span:hover {
+  color: var(--gray);
+}
+
+.main-banner__btn button {
+  border: 1px solid var(--pink);
+  border-radius: 10px;
+  padding: 23px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: var(--poppins-500);
+  color: var(--white);
+  background-color: var(--pink);
+}
+
+.main-banner__btn button:hover {
+  color: var(--pink);
+  background-color: var(--white);
+  transition: ease-in-out 0.5s;
+}
+
+.main-banner__pic img {
+  width: 636px;
+  height: 505px;
+}
+
+/* breakpoint for screen from 576px to 786px (sm) */
+@media screen and (min-width: 576px) and (max-width: 786px) {
+  /*  */
+}
+
+/* breakpoint for screen from 768px to 992px (md)*/
+@media screen and (min-width: 786px) and (max-width: 991px) {
+  /*  */
+}
+
+/* breakpoint for screen from 992px to 1200px (lg) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-banner h1 {
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  .main-banner__pic img {
+    width: 456px;
+    height: 363px;
+  }
+}
+
+/*  breakpoint for screen from 1200px to 1400px (xl)*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .main-banner h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .main-banner__content p {
+    width: 470px;
+  }
+
+  .main-banner__pic img {
+    width: 546px;
+    height: 435px;
+  }
+}

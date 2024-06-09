@@ -1,1 +1,14 @@
 @import "../styles/base/reset.css";
+@import "../styles/base/variables.css";
+@import "../styles/layout/grid.css";
+@import "../styles/layout/header.css";
+@import "../styles/layout/section/main-banner.css";
+@import "../styles/layout/section/serve-section.css";
+@import "../styles/layout/section/second-banner.css";
+@import "../styles/layout/section/third-banner.css";
+@import "../styles/layout/section/download-section.css";
+@import "../styles/layout/footer.css";
+
+body {
+  font-family: var(--poppins);
+}

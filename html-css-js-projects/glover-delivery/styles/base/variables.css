@@ -1,0 +1,29 @@
+@import "./typography.css";
+
+:root {
+  /* container */
+  --container-width: 1400px;
+  --column-space: 20px;
+
+  /* fonts */
+  --poppins: "Poppins", sans-serif;
+  --poppins-100: 100;
+  --poppins-200: 200;
+  --poppins-300: 300;
+  --poppins-400: 400;
+  --poppins-500: 500;
+  --poppins-600: 600;
+  --poppins-700: 700;
+  --poppins-800: 800;
+  --poppins-900: 900;
+
+  /* colors */
+  --white: #fff;
+  --black: #000;
+  --pink: #f86061;
+  --light-pink: #fdecec;
+  --gray: #676767;
+  --light-gray: #e0e0e1;
+  --green: #27ae60;
+  --yellow: #f4d03f;
+}
