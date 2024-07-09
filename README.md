@@ -1,39 +1,36 @@
 # HTML-CSS-JavaScript Learning Roadmap
 
-📁 **HTML-CSS Roadmap:**
+📁 Learn HTML
 
-**Step 01: Basic Of HTML:**
+- What is HTML ?
+- HTML Basic Elements (Heading, Paragraph, Anchor, Link, List, ...)
+- HTML Attributes
+- HTML Form Elements
+- HTML Table Elements
+- HTML Multimedia Elements
+- Semantic HTML 5
+- Accessbility in HTML
+- SEO in HTML
 
-- Understanding what HTML is
-- Strucutre of an HTML document
-- DOCTYPE declaration
-- HTML Elements and Attributes
-- HTML 5 Semantic Elements
-- Forms and Input Elements
-- Tables Elements
-- Multimedia Elements
+📁**Learn CSS**
 
-**Step 02: Basic of CSS**
-
-- What is CSS
-- How CSS work with HTML
-- CSS Syntax
-- Basic Selectors: element, class, id, attribute selectors, pseudo-class selectors, pseudo-element selectors
-- Colors and Backgrounds: color values, backgroud properties
-- Text Styling: font-properties, text-properies
-- Box Model: margin, border, padding, content, box-sizing
-- Layout Techniques: display porperty, position property, float and clear
-
-**Step 03: Advanced HTML and CSS**
-
+- What is CSS ?
+- Intital CSS in HTML docuemnt
+- Learn CSS Syntax
+- CSS Basic Selectors: element, class, id, attribute selectors, pseudo-class selectors, pseudo-element selectors
+- CSS Colors - Backgrounds
+- Text Styling in CSS: font-properties, text-properies
+- Box Model in CSS: margin, border, padding, content, box-sizing
+- Basic Layout Techniques: display porperty, position property, float and clear
 - Responsive Web Design
 - Transitions and animations
 - Grid Layout
 - Flexbox Layout
 - Build Grid System
 
-📁 **JavaScript Roadmap:**
+📁 **Learn** **JavaScript**
 
+- What is JavaScript ?
 - Understand variables and operators
 - Work with data types like: string, number, object
 - Work with arrays data structure
