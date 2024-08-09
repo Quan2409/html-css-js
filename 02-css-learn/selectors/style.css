@@ -71,3 +71,7 @@ ul.list li.active {
 input[type="text"] {
   border: 1px solid #ccc;
 }
+
+h2 + h2 {
+  color: red;
+}
