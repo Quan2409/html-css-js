@@ -1,4 +1,4 @@
-@import "../base/variables.css";
+@import "./base/variables.css";
 
 .container {
   max-width: var(--container-width);
