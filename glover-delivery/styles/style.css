@@ -278,6 +278,11 @@ body {
   align-items: center;
 }
 
+.download-img {
+  position: relative;
+  left: 200px;
+}
+
 .download-content span {
   color: var(--pink);
   font-weight: var(--poppins-600);
