@@ -26,4 +26,11 @@
   --light-gray: #e0e0e1;
   --green: #27ae60;
   --yellow: #f4d03f;
+
+  /* hamburger-menu */
+  --bar-width: 25px;
+  --bar-height: 2px;
+  --bar-gap: 5px;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--bar-gap) * 2);
+  --animation-timing: 200ms ease-in-out;
 }

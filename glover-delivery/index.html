@@ -1,56 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- head -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glover Delivery</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
     <!-- css -->
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
+  <!-- body -->
   <body>
+    <!-- header -->
     <header id="header">
       <div class="container">
         <div class="row">
-          <div class="col-xl-2 col-lg-2 col-md-12">
+          <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12">
             <figure>
-              <img
-                class="header-logo"
-                src="./assets/images/logo.svg"
-                alt="logo"
-              />
+              <a href="#">
+                <img
+                  class="header-logo"
+                  src="./assets/images/logo.svg"
+                  alt="logo"
+                />
+              </a>
             </figure>
           </div>
-
-          <div class="col-xl-7 col-lg-7 col-md-12">
+          <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
             <nav class="header-nav">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Shop</a></li>
-              </ul>
-            </nav>
-          </div>
-
-          <div class="col-xl-3 col-lg-3 col-md-12">
-            <form class="header-form">
-              <label>
-                <input type="text" placeholder="Search" />
-                <i class="fa-solid fa-magnifying-glass search-ic"></i>
-                <i class="fa-solid fa-cart-shopping cart-ic"></i>
+              <!-- hamburger-menu -->
+              <label class="hamburger-menu">
+                <input type="checkbox" />
               </label>
-            </form>
+
+              <div class="nav-list">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Service</a></li>
+                  <li><a href="#">Shop</a></li>
+                </ul>
+                <form class="search-form">
+                  <label>
+                    <input type="text" placeholder="Search" />
+                    <i class="fa-solid fa-magnifying-glass search-ic"></i>
+                    <i class="fa-solid fa-cart-shopping cart-ic"></i>
+                  </label>
+                </form>
+              </div>
+            </nav>
           </div>
         </div>
       </div>
     </header>
 
+    <!-- main -->
     <main id="main">
       <section class="hero">
         <div class="container">
@@ -78,7 +82,6 @@
                 <span>Order Process</span>
               </div>
             </div>
-
             <div class="col-xl-6 col-lg-6 col-md-12">
               <figure>
                 <img
@@ -94,13 +97,13 @@
         </div>
       </section>
 
-      <section class="serve">
+      <!-- serve-section -->
+      <!-- <section class="serve">
         <div class="container">
           <div class="serve-content">
             <span class="serve-tag">What we Serve</span>
             <h2>Fruit And Vegetable Delivered To Your Home</h2>
           </div>
-
           <div class="serve-list">
             <div class="row">
               <div class="col-xl-4 col-lg-4 col-md-4">
@@ -167,9 +170,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="intro">
+      <!-- intro-section -->
+      <!-- <section class="intro">
         <div class="container">
           <div class="row">
             <div class="col-xl-7 col-lg-7">
@@ -183,7 +187,6 @@
                 />
               </figure>
             </div>
-
             <div class="col-xl-5 col-lg-5">
               <div class="intro-content">
                 <span>Why Choose Us</span>
@@ -197,9 +200,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="feature">
+      <!-- feature-section -->
+      <!-- <section class="feature">
         <div class="container">
           <div class="row">
             <div class="col-xl-6 col-lg-7 col-md-12">
@@ -213,7 +217,6 @@
                 <button>Explore Now</button>
               </div>
             </div>
-
             <div class="col-xl-6 col-lg-5 col-md-12">
               <figure>
                 <img
@@ -227,9 +230,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="download">
+      <!-- download-section -->
+      <!-- <section class="download">
         <div class="container">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12">
@@ -241,7 +245,6 @@
                 />
               </figure>
             </div>
-
             <div class="col-xl-6 col-lg-6 col-md-12">
               <div class="download-content">
                 <span>Download our app</span>
@@ -251,7 +254,6 @@
                   do eiusmod tempor incididunt ut.
                 </p>
               </div>
-
               <div class="download-btn">
                 <div class="apple-btn">
                   <img src="./assets/icons/apple.svg" alt="apple-ic" />
@@ -265,10 +267,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer id="footer">
+    <!-- footer -->
+    <!-- <footer id="footer">
       <div class="container">
         <div class="footer-top">
           <div class="row">
@@ -281,7 +284,6 @@
                 </p>
               </div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-12">
               <div class="company-links">
                 <h3>Company</h3>
@@ -293,7 +295,6 @@
                 </ul>
               </div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-12">
               <div class="service-links">
                 <h3>Services</h3>
@@ -305,7 +306,6 @@
                 </ul>
               </div>
             </div>
-
             <div class="col-xl-3 col-lg-3 col-md-12">
               <div class="get-in-touch">
                 <h3>Get in Touch</h3>
@@ -317,7 +317,6 @@
             </div>
           </div>
         </div>
-
         <div class="footer-bottom">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -334,6 +333,6 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
