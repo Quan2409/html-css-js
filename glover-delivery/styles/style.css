@@ -384,8 +384,10 @@ button:hover {
 }
 
 .cta-img {
-  position: relative;
-  left: 200px;
+  display: block;
+  width: 290px;
+  height: 556px;
+  margin: 0 auto;
 }
 
 .cta-content span {
@@ -422,7 +424,7 @@ button:hover {
 
 .apple-btn a,
 .google-btn a {
-  font-size: 1.2rem;
+  font-size: 16px;
   font-weight: var(--poppins-500);
 }
 /* cta-section-end */
@@ -526,19 +528,21 @@ button:hover {
     transition: height 0.5s ease;
   }
 
-  .nav-bar ul:first-child {
+  .nav-bar ul:nth-child(1) {
     flex-direction: column;
     gap: 30px;
     text-align: center;
   }
 
+  .nav-bar ul:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
   .hamburger-menu:has(input:checked) + .nav-bar {
     height: 300px;
     opacity: 1;
-  }
-
-  .nav-search {
-    margin-top: 20px;
   }
 }
 
@@ -583,26 +587,81 @@ button:hover {
     height: 435px;
   }
 
-  .service-content h2 {
-    font-size: 32px;
-  }
-
-  .card-wrapper {
-    padding: 40px 26px;
-  }
-
   .service-card {
     margin: 0 15px;
   }
 
+  .card-wrapper {
+    width: 280px;
+  }
+
+  .card-wrapper .card-ic {
+    width: 117px;
+    height: 60px;
+  }
+
   .card-cover {
-    width: 300px;
-    height: 340px;
+    width: 280px;
+    height: 320px;
+  }
+
+  .service-content h2 {
+    font-size: 32px;
   }
 
   .service-card:hover .card-cover {
     left: 20px;
     transform: rotate(-2deg);
+  }
+
+  .feature-content h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .feature-content p {
+    font-size: 16px;
+  }
+
+  .feature-left .feature-img {
+    width: 641px;
+    height: 637px;
+  }
+
+  .feature-left .feature-content p {
+    width: 450px;
+  }
+
+  .feature-right .feature-content h2 {
+    width: 450px;
+  }
+
+  .feature-right .feature-img {
+    width: 546px;
+    height: 613px;
+  }
+
+  .cta-content h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .cta-content p {
+    font-size: 16px;
+  }
+
+  .cta-btn {
+    column-gap: 40px;
+  }
+
+  .company-info p,
+  .get-in-touch p {
+    width: 250px;
+  }
+
+  .company-links,
+  .service-links {
+    margin: 0 50px;
   }
 }
 
