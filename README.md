@@ -1,6 +1,6 @@
-# HTML-CSS-JavaScript Learning Roadmap
+# HTML - CSS - JavaScript
 
-📁 **HTML - Hyper Text Markup Language**
+📁 **HTML Roadmap:**
 
 - HTML Elements
 - HTML Attributes
@@ -10,9 +10,9 @@
 - HTML SEO
 - HTML Emmet & Entity
 
-📁**CSS - Cassading Style Sheet**
+📁**CSS Roadmap:** 
 
-- Work with CSS in HTML document
+- CSS Intergration
 - CSS Syntax
 - CSS Selectors
 - CSS Properties
@@ -22,10 +22,10 @@
 - CSS Methodology
 - CSS Preprocessor
 
-📁 **Learn** **JavaScript**
+📁 **JavaScript Roadmap**
 
-- JavaScript History Development
-- Wotk with JavaScirpt in HTML Docuement
+- JavaScript History
+- JavaScript Intergration
 - JavaScript Basic Concepts:
   - Variables
   - Data Types

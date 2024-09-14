@@ -3,47 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inline Element</title>
+    <title>HTML Element</title>
   </head>
   <body>
-    <!-- anchor element: sử dụng để tạo liên kết -->
-    <a href="http://www.example.com">Visit Example</a>
+    <!-- BLOCK ELEMENT -->
+    <div class="block-el">
+      <h1>This is a heading element</h1>
+      <p>This is a paragraph element</p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+      </ul>
+      <ol>
+        <li>A</li>
+        <li>B</li>
+      </ol>
+    </div>
 
-    <!-- image element: sử dụng để chèn hình ảnh -->
-    <img src="image.jpg" alt="description of image" />
+    <hr />
 
-    <!-- br element: sử dụng để xuống dòng 1 đoạn văn -->
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    </p>
-    <br />
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    </p>
+    <!-- INLINE ELEMENT -->
+    <div class="inline-el">
+      <a href="http://www.example.com">Visit Example</a>
+      <img src="image.jpg" alt="description of image" />
+      <button type="button">Click Me!</button>
+    </div>
 
-    <!-- span element: sử dụng để định dạng nội dung nhỏ -->
-    <h1>Khóa học lập trình tại <span>F8</span></h1>
+    <hr />
 
-    <!-- strong, b element: sử dụng để in đậm-->
-    <p>Học lập trình tại <b>F8</b></p>
-    <p>Học lập trình tại <strong>F8</strong></p>
+    <!-- FORM ELEMENT -->
+    <form action="">
+      <div>
+        <label for="text">Text Field</label>
+        <input type="text" id="text" placeholder="Text Field" />
+      </div>
+      <br />
 
-    <!-- em, i element: sử dụng để in nghiêng -->
-    <p>Học lập trình tại <i>F8</i></p>
-    <p>Học lập trình tại <em>F8</em></p>
+      <div>
+        <label for="password">Password Field</label>
+        <input type="password" id="password" placeholder="Password Field" />
+      </div>
 
-    <!-- s, del element: sử dụng để gạch ngang-->
-    <p>Học lập trình tại <s>F8</s></p>
-    <p>Học lập trình tại <del>F8</del></p>
+      <br />
 
-    <!-- sub, sup element: viết nội dung trên với duới-->
-    <p>CO<sub>2</sub></p>
-    <p>Điện tích: 100m<sup>2</sup></p>
+      <div>
+        <label for="number">Number Field</label>
+        <input type="number" id="number" placeholder="Number Field" />
+      </div>
+      <br />
 
-    <!-- code: thể hiện nội dung văn bản dưới dạng mã máy tính -->
-    <p>Thẻ <code>button</code> trong HTML dùng để hiện 1 nút trên trang web</p>
+      <div>
+        <label for="file">File Field</label>
+        <input type="file" id="file" />
+      </div>
 
-    <!-- button element: sử dụng để tạo nút bấm  -->
-    <button type="button">Click Me!</button>
+      <br />
+
+      <div>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" />
+
+        <label for="no">No</label>
+        <input type="radio" id="no" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="box01">Option A</label>
+        <input type="checkbox" id="box01" />
+
+        <label for="box02">Option B</label>
+        <input type="checkbox" id="box02" />
+      </div>
+    </form>
   </body>
 </html>
