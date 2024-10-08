@@ -10,7 +10,7 @@
 - HTML SEO
 - HTML Emmet & Entity
 
-📁**CSS Roadmap:** 
+📁**CSS Roadmap:**
 
 - CSS Intergration
 - CSS Syntax
@@ -21,17 +21,18 @@
 - Build Grid System
 - CSS Methodology
 - CSS Preprocessor
+- CSS Framework
 
 📁 **JavaScript Roadmap**
 
 - JavaScript History
 - JavaScript Intergration
-- JavaScript Basic Concepts:
-  - Variables
-  - Data Types
-  - Operators
-  - Error Handling
-- Work with Data Structure
-- JavaScript DOM & BOM
-- Handle Asynchronous in JavaScript
+- Variables - Operators
+- Data Types
+- Control Statement
+- Loop Statement
+- DOM & BOM
+- Error Handling
+- Data Structure (Array) Handling
+- Asynchronous Handling
 - JavaScript Versions From ES6
