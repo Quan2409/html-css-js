@@ -1,38 +1,25 @@
-# HTML - CSS - JavaScript
+# HTML - CSS LEARNING ROADMAP
 
 📁 **HTML Roadmap:**
 
-- HTML Elements
-- HTML Attributes
+- Learn HTML Elements
+- Learn HTML Attributes
 - Work with Form Elements
 - Work with Table Elements
-- HTML5 (Version 5 of HTML)
-- HTML SEO
-- HTML Emmet & Entity
+- Learn HTML5 (Version 5 of HTML)
+- Learn SEO In HTML
+- Learn Emmet Syntax In HTMl
+- Learn Entity Syntax In HTML
 
 📁**CSS Roadmap:**
 
-- CSS Intergration
-- CSS Syntax
-- CSS Selectors
-- CSS Properties
-- CSS Flexbox & Grid Layout
-- Responsive web design
+- Learn How To Intergrate CSS In HTML
+- Learn CSS Syntax
+- Learn CSS Selectors
+- Learn CSS Properties
+- Learn How To Use Flexbox & Grid Layout
+- Learn Responsive Design Technique
 - Build Grid System
-- CSS Methodology
-- CSS Preprocessor
-- CSS Framework
-
-📁 **JavaScript Roadmap**
-
-- JavaScript History
-- JavaScript Intergration
-- Variables - Operators
-- Data Types
-- Control Statement
-- Loop Statement
-- DOM & BOM
-- Error Handling
-- Data Structure (Array) Handling
-- Asynchronous Handling
-- JavaScript Versions From ES6
+- Learn CSS Methodology
+- Learn CSS Preprocessor
+- Learn CSS Framework
