@@ -3,199 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML-CSS Projects<title>
+    <title>HTML-CSS</title>
     <!-- css -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-      * {
-        margin: 0;
-        border: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: "Roboto", sans-serif;
-        background-color: rgb(247, 246, 246);
-        background-color: #fff;
-      }
-
-      a {
-        color: #000;
-        text-decoration: none;
-        border: 1px solid #000;
-      }
-
-      #header {
-        padding: 10px;
-        text-align: center;
-        border-bottom: 1px solid #000;
-      }
-
-      .container {
-        max-width: 1400px;
-        margin: 0 auto;
-      }
-
-      #header .header-title {
-        text-transform: uppercase;
-      }
-
-      #header .header-tag {
-        display: block;
-        width: 400px;
-        margin: 10px auto;
-        padding: 10px;
-        border: 1px solid #000;
-        border-radius: 30px;
-      }
-
-      #main {
-        margin-top: 30px;
-      }
-
-      .project-list {
-        display: flex;
-        justify-content: center;
-        column-gap: 30px;
-        flex-wrap: wrap;
-      }
-
-      .project {
-        position: relative;
-        margin: 20px 0;
-      }
-
-      .project-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 30px;
-        padding: 20px;
-        width: 350px;
-        border: 1px solid #000;
-        border-radius: 10px;
-      }
-
-      .project-wrapper .project-content a {
-        display: block;
-        margin: 10px 0;
-        padding: 10px;
-        width: 200px;
-        border-radius: 5px;
-      }
-
-      .project-content .live:hover,
-      .project-content .src:hover {
-        transition: 0.5s;
-        background-color: #000;
-        color: #fff;
-      }
-
-      .project-tag {
-        position: absolute;
-        top: -10px;
-        left: 120px;
-      }
-
-      .project-tag span {
-        margin: 5px auto;
-        padding: 5px 10px;
-        border: 1px solid #000;
-        border-radius: 30px;
-        text-align: center;
-        background-color: #fff;
-      }
-    </style>
+    <link rel="stylesheet" href="./page/style.css" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./page/folder.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <header id="header">
       <div class="container">
-        <h1 class="header-title">Front-End Projects</h1>
-        <span class="header-tag">
-          <b>Tech Stack</b>: HTML - CSS - JavaScripts - React
-        </span>
+        <h1 class="header__title">HTML - CSS Projects</h1>
+        <span class="header__tag"> <b>Tech Stack</b>: HTML - CSS - SCSS </span>
       </div>
     </header>
-
     <main id="main">
       <div class="container">
         <div class="project-list">
-          <!-- GLOVER-DELIVERY -->
-          <div class="project">
+          <!-- glover-delivery -->
+          <section class="project">
             <div class="project-wrapper">
-              <figure class="project-ic">
-                <img
-                  src="./fd-ic.png"
-                  alt="project-ic"
-                  width="70"
-                  height="70"
-                />
-              </figure>
+              <img
+                src="./page/folder.png"
+                alt="folder-ic"
+                width="70"
+                height="70"
+              />
               <div class="project-content">
-                <h2>Glover Delivery</h2>
+                <h2 class="project-content__heading">Glover Delivery</h2>
+                <a target="_blank" href="#">Live Demo</a>
                 <a
                   target="_blank"
-                  href="https://quan2409.github.io/html-css-javascript-learn/glover-delivery/"
-                  class="live"
-                  >Live Demo</a
+                  href="https://github.com/Quan2409/html-css/tree/master/projects/green-chop"
                 >
-                <a
-                  target="_blank"
-                  href="https://github.com/Quan2409/html-css-javascript-learn/tree/master/glover-delivery"
-                  class="src"
-                  >Source Code</a
-                >
+                  Source Code
+                </a>
+              </div>
+              <div class="project-tag">
+                <span>HTML - CSS</span>
               </div>
             </div>
-            <div class="project-tag">
-              <span>HTML - CSS</span>
-            </div>
-          </div>
+          </section>
 
-          <!-- GREEN CHOP -->
-          <div class="project">
+          <!-- green-chop -->
+          <section class="project">
             <div class="project-wrapper">
-              <figure class="project-ic">
-                <img
-                  src="./fd-ic.png"
-                  alt="project-ic"
-                  width="70"
-                  height="70"
-                />
-              </figure>
+              <img
+                src="./page/folder.png"
+                alt="folder-ic"
+                width="70"
+                height="70"
+              />
               <div class="project-content">
-                <h2>Green Chop</h2>
-                <a href="#" class="live">Live Demo</a>
-                <a href="#" class="src">Source Code</a>
+                <h2 class="project-content__heading">Green Chop</h2>
+                <a target="_blank" href="#">Live Demo</a>
+                <a target="_blank" href="#">Source Code</a>
+              </div>
+              <div class="project-tag">
+                <span>HTML - SCSS</span>
               </div>
             </div>
-            <div class="project-tag">
-              <span>HTML - SCSS</span>
-            </div>
-          </div>
-
-          <!-- BURGER KING -->
-          <div class="project">
-            <div class="project-wrapper">
-              <figure class="project-ic">
-                <img
-                  src="./fd-ic.png"
-                  alt="project-ic"
-                  width="70"
-                  height="70"
-                />
-              </figure>
-              <div class="project-content">
-                <h2>Burger King</h2>
-                <a href="#" class="live">Live Demo</a>
-                <a href="#" class="src">Source Code</a>
-              </div>
-            </div>
-            <div class="project-tag">
-              <span>HTML - SCSS</span>
-            </div>
-          </div>
+          </section>
         </div>
       </div>
     </main>
