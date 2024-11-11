@@ -1,10 +1,8 @@
-let x = 20;
+// declare a variable
+var x;
 
-function myVariable() {
-  if (true) {
-    let x = 10;
-  }
-}
-myVariable();
+// assign data in a variable
+var x = 20;
 
-console.log(x);
+// how to check type of data
+console.log(typeof x);

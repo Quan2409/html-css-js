@@ -33,12 +33,13 @@ myString.replace("Hello", "ByeBye");
 myString.split("");
 
 // toLowerCase(): chuyển thành chữ thường
-myString.toLocaleLowerCase();
+myString.toLowerCase();
 
 // toUpperCase(): chuyển thành chữ hoa
 myString.toUpperCase();
 
 // ----------
+
 /*
 Excercise 01: Đảo ngịch chuỗi
 Require: 
@@ -52,12 +53,35 @@ function reverseString(str) {
   }
   return reverseArr;
 }
-console.log("EX01 result:", reverseString("hello"));
+console.log("EX01 Output:", reverseString("hello"));
 
 // ----------
+
 /*
-Excercise 02: Đảo ngịch chuỗi
+Excercise 02: Biến chuỗi sau về dạng chuẩn (chữ cái đầu viết hoa) 
 Require: 
-- Input: "ABCDEF" 
-- Output: "FEDCBA"
+- Input: "do khac Quan" 
+- Output: "Do Khac Quan"
 */
+function getUpperCase(str) {
+  if (typeof str !== "string") {
+    console.log("This is not a string, please try again");
+    return false;
+  }
+  // turn all characrer to lowercase
+  str = str.toLowerCase();
+  let strToArray = str.split(" ");
+  let newStr = "";
+  for (let i = 0; i < strToArray.length; i++) {
+    let firstLetter = strToArray[i].slice(0, 1);
+    if (typeof firstLetter === "string") {
+      strToArray[i] = firstLetter.toUpperCase() + strToArray[i].slice(1);
+      newStr += strToArray[i] + " ";
+    } else {
+      console.log("First letter is not a string, please try again");
+      return false;
+    }
+  }
+  return newStr.trim();
+}
+console.log("EX02 Output:", getUpperCase("do khac quan"));

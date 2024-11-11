@@ -1,4 +1,6 @@
-# HTML - CSS LEARNING ROADMAP
+# HTML - CSS - JAVASCRIPT LEARNING ROADMAP
+
+Projects:
 
 📁 **HTML Roadmap:**
 
@@ -11,7 +13,7 @@
 - Learn Emmet Syntax In HTMl
 - Learn Entity Syntax In HTML
 
-📁**CSS Roadmap:**
+📁 **CSS Roadmap:**
 
 - Learn How To Intergrate CSS In HTML
 - Learn CSS Syntax
