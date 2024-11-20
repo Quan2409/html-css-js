@@ -75,30 +75,29 @@ const addUser = async () => {
   const userName = prompt("Enter user name");
   const userEmail = prompt("Enter user email");
 
-  if (userName && userEmail) {
-    try {
-      const response = await fetch(`${api_url}/users`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: userName,
-          email: userEmail,
-        }),
-      });
+  try {
+    const response = await fetch(`${api_url}/users`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: userName,
+        email: userEmail,
+      }),
+    });
 
-      if (!response.ok) {
-        throw new Error("Failed to add user");
-      } else {
-        const newUser = await response.json();
-        window.alert("A new user is added, refresh page to see");
-      }
+    if (!response.ok) {
+      throw new Error("Failed to add user");
+    } else {
+      await response.json();
+      window.alert("A new user is added, refresh page to see");
+    }
 
-      const tbody = document.querySelector("tbody");
-      const tr = document.createElement("tr");
-      tr.setAttribute("data-id", newUser.id);
-      tr.innerHTML = `
+    const tbody = document.querySelector("tbody");
+    const tr = document.createElement("tr");
+    tr.setAttribute("data-id", newUser.id);
+    tr.innerHTML = `
         <td>${newUser.name}</td>
         <td>${newUser.email}</td>
         <td>
@@ -108,10 +107,9 @@ const addUser = async () => {
           <button class="delete-btn" onClick="deleteUser(${id})">Delete</button>
         </td>
       `;
-      tbody.appendChild(tr);
-    } catch (error) {
-      console.log("Create user error: " + error);
-    }
+    tbody.appendChild(tr);
+  } catch (error) {
+    console.log("Create user error: " + error);
   }
 };
 

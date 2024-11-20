@@ -1,27 +1,61 @@
 # HTML - CSS - JAVASCRIPT LEARNING ROADMAP
 
-Projects:
+Projects: https://quan2409.github.io/html-css-js/
 
 📁 **HTML Roadmap:**
 
-- Learn HTML Elements
-- Learn HTML Attributes
-- Work with Form Elements
-- Work with Table Elements
-- Learn HTML5 (Version 5 of HTML)
-- Learn SEO In HTML
-- Learn Emmet Syntax In HTMl
-- Learn Entity Syntax In HTML
+- HTML Elements
+- HTML Attributes
+- HTML Form
+- HTML Table
+- HTML5 New Features
+- HTML SEO
+- HTML Emmet & Entity Syntax
 
 📁 **CSS Roadmap:**
 
-- Learn How To Intergrate CSS In HTML
-- Learn CSS Syntax
-- Learn CSS Selectors
-- Learn CSS Properties
-- Learn How To Use Flexbox & Grid Layout
-- Learn Responsive Design Technique
-- Build Grid System
-- Learn CSS Methodology
-- Learn CSS Preprocessor
-- Learn CSS Framework
+- Intergrating CSS in HTML
+- CSS Syntax
+- CSS Selectors
+- CSS Properties
+- Flexbox & Grid Layout
+- Responsive Design Technique
+- Grid System
+- CSS Methodology
+- CSS Preprocessor
+- CSS Framework
+
+📁 **JavaScript Roadmap**:
+
+- Variables and Data Types
+- Operators
+- Control Structures (if, switch, loops)
+- Functions and Scope
+- Error Handling (try-catch)
+- DOM Manupulation
+- Event Handling
+- Array and Object Methods
+- Asynchronous JavaScript (Promises, Async / Await)
+- Fetch API and AJAX
+- OOP In JavaScript
+- Closurec and Lexical Scoping
+- Prototype and Inheritance
+- "this" Keywork and Context
+- ES6+ Features (Arrow Function, Destrcuturing)
+- Modules and Imports/Exports
+- JavaScript In Browser:
+  - Browser APIs (localStorage, sessionStorage, etc.)
+  - Web APIs (Geolocation, Notification, etc.)
+  - Working with APIs (RESTful and GraphQL)
+- JavaScript Frameworks and Libararies
+  - Libararies (e.g., jQuery, React, ...)
+  - Frameworks (e.g. Vue, Angular, ...)
+  - State Management (Redux, Vuex)
+- Testing and Debugging
+  - Debugging in the Console
+  - Unit Testing with Jest or Mocha
+  - Writing Testable Code
+- Building and Optimizing
+  - Module Bundlers (Webpack, Parcel)
+  - Transpilers (Babel)
+  - Code Spiliting and Lazy Loading
