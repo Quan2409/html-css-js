@@ -2,6 +2,7 @@
 
 Projects: https://quan2409.github.io/html-css-js/
 
+```plaintext
 ├── HTML Roadmaps
 | └── HTML Elements
 | └── HTML Attributes
@@ -13,18 +14,21 @@ Projects: https://quan2409.github.io/html-css-js/
 |
 ├── CSS Roadmaps
 | └── Intergrating CSS
-| └── CSS Syntax
-| └── CSS Selectors
-| └── CSS Properties
-| └── Flex-Box Layout
-| └── Grid Layout
-| └── Build Grid System
-| └── Responsive Desing
-| └── CSS Methodology
-| └── CSS Preprocessor (SASS)
-├── CSS Framework
-| └── Bootstrap
-| └── Tailwind
+
+📁 **CSS Roadmap:**
+
+- Intergrating CSS in HTML
+- CSS Syntax
+- CSS Selectors
+- CSS Properties
+- Flexbox & Grid Layout
+- Responsive Design Technique
+- Grid System
+- CSS Methodology
+- CSS Preprocessor
+- CSS Framework
+
+📁 **JavaScript Roadmap**:
 
 - Variables and Data Types
 - Operators
@@ -58,3 +62,4 @@ Projects: https://quan2409.github.io/html-css-js/
   - Module Bundlers (Webpack, Parcel)
   - Transpilers (Babel)
   - Code Spiliting and Lazy Loading
+```
