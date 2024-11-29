@@ -2,30 +2,29 @@
 
 Projects: https://quan2409.github.io/html-css-js/
 
-📁 **HTML Roadmap:**
-
-- HTML Elements
-- HTML Attributes
-- HTML Form
-- HTML Table
-- HTML5 New Features
-- HTML SEO
-- HTML Emmet & Entity Syntax
-
-📁 **CSS Roadmap:**
-
-- Intergrating CSS in HTML
-- CSS Syntax
-- CSS Selectors
-- CSS Properties
-- Flexbox & Grid Layout
-- Responsive Design Technique
-- Grid System
-- CSS Methodology
-- CSS Preprocessor
-- CSS Framework
-
-📁 **JavaScript Roadmap**:
+├── HTML Roadmaps
+| └── HTML Elements
+| └── HTML Attributes
+| └── HTML Form
+| └── HTML Table
+| └── HTML5 Features
+| └── HTML SEO
+| └── HTMML Emmet & Entity
+|
+├── CSS Roadmaps
+| └── Intergrating CSS
+| └── CSS Syntax
+| └── CSS Selectors
+| └── CSS Properties
+| └── Flex-Box Layout
+| └── Grid Layout
+| └── Build Grid System
+| └── Responsive Desing
+| └── CSS Methodology
+| └── CSS Preprocessor (SASS)
+├── CSS Framework
+| └── Bootstrap
+| └── Tailwind
 
 - Variables and Data Types
 - Operators
