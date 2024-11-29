@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000";
+const apiUrl = "http://localhost:8000";
 window.addEventListener("DOMContentLoaded", () => getTodos());
 let currentId = 0;
 

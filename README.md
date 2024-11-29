@@ -1,4 +1,4 @@
-# HTML - CSS - JAVASCRIPT LEARNING ROADMAP
+# HTML / CSS / JAVASCRIPT SETUP
 
 Projects: https://quan2409.github.io/html-css-js/
 
@@ -14,42 +14,49 @@ Projects: https://quan2409.github.io/html-css-js/
 |
 ├── CSS Roadmaps
 | └── Intergrating CSS
+| └── CSS Syntax
+| └── CSS Selectors
+| └── CSS Properties
+| └── CSS Flexbox
+| └── CSS Grid
+| └── CSS Methodology
+|
+├── CSS Methodologies
+| └── SASS / SCSS
+|
+├── CSS Framework
+| └── Bootstrap
+| └── Tailwind CSS
+|
+├── JavaScripts
+| └── Intergrating JavaScripts
+| └── Variables and Operators
+| └── Conditional Stataments (If-Else, Switch-Case)
+| └── Loops Statements
+| └── Functions, Scope, Hoisting
+| └── Error Handling (try-catch)
+| └── Element Handling
+| └── Event Handling
+| └── Array Structure Handling
+| └── Asynchronous Handling (Promises, Async / Await)
+| └── Fetch API
+| └── OOP In JavaScript
+| └── ES6+ Features (Arrow Function, Destrcuturing)
+|
 
-📁 **CSS Roadmap:**
 
-- Intergrating CSS in HTML
-- CSS Syntax
-- CSS Selectors
-- CSS Properties
-- Flexbox & Grid Layout
-- Responsive Design Technique
-- Grid System
-- CSS Methodology
-- CSS Preprocessor
-- CSS Framework
 
-📁 **JavaScript Roadmap**:
 
-- Variables and Data Types
-- Operators
-- Control Structures (if, switch, loops)
-- Functions and Scope
-- Error Handling (try-catch)
-- DOM Manupulation
-- Event Handling
-- Array and Object Methods
-- Asynchronous JavaScript (Promises, Async / Await)
-- Fetch API and AJAX
-- OOP In JavaScript
 - Closurec and Lexical Scoping
 - Prototype and Inheritance
 - "this" Keywork and Context
 - ES6+ Features (Arrow Function, Destrcuturing)
 - Modules and Imports/Exports
+
+
 - JavaScript In Browser:
   - Browser APIs (localStorage, sessionStorage, etc.)
   - Web APIs (Geolocation, Notification, etc.)
-  - Working with APIs (RESTful and GraphQL)
 - JavaScript Frameworks and Libararies
   - Libararies (e.g., jQuery, React, ...)
   - Frameworks (e.g. Vue, Angular, ...)

@@ -26,12 +26,11 @@
       "email": "user05@gmail.com"
     }
   ],
-
   "todos": [
     {
       "id": "2",
       "name": "Have Dinner",
-      "completed": true
+      "completed": false
     },
     {
       "id": "3",
@@ -41,11 +40,6 @@
     {
       "id": "4",
       "name": "Do Notion",
-      "completed": true
-    },
-    {
-      "id": "6",
-      "name": "Have Sex",
       "completed": false
     }
   ]
